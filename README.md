@@ -6,12 +6,14 @@ Collective certification agianst graph injection attack in node classification t
 ### Environment setup
 
 ```bash
+cd ./Environments
 conda env create -f py37.yml
 conda activate py37
 pip install -r py37.txt
 ```
 or to specific dir:
 ```bash
+cd ./Environments
 conda env create -f py37.yml -p /home/xxx/py37
 conda activate /home/xxx/py37
 pip install -r py37.txt
