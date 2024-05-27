@@ -23,7 +23,7 @@ if report: "ResolvePackageNotFound:xxx", or "No matching distribution found for 
 
 ### Data Preparation
 ./Data: it contains the Cora-ML and Citeseer datasets.  
-./results_citeseer and ./results_cora: it contains the smoothing sampling can predict results. It is required for the optimization problem.
+./results_citeseer and ./results_cora: They contain the smoothing sampling and their predicted results. It is required for the optimization problem.
 It can be prepared from the source code of the sample-wise certificate: https://github.com/Yuni-Lai/NodeAwareSmoothing. Please refer to the paper for details:
 ```angular2html
 Lai, Yuni, et al. "Node-aware Bi-smoothing: Certified Robustness against Graph Injection Attacks." IEEE Symposium on Security and Privacy (2023).
