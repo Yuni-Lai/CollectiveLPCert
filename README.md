@@ -21,12 +21,12 @@ pip install -r py37.txt
 if report: "ResolvePackageNotFound:xxx", or "No matching distribution found for xxx", just open the .yml or .txt file and delete that line.
 
 
-### Data preparation
-./Data: it contains the Cora-ML and Citeseer dataset.  
-./results_citeseer and ./results_cora: it contains the smoothing sampling can prediction results. It is required for the optimization problem.
-It can be prepare from the source code of sample-wise certificate: https://github.com/Yuni-Lai/NodeAwareSmoothing. Please refer to the paper for details:
+### Data Preparation
+./Data: it contains the Cora-ML and Citeseer datasets.  
+./results_citeseer and ./results_cora: it contains the smoothing sampling can predict results. It is required for the optimization problem.
+It can be prepared from the source code of the sample-wise certificate: https://github.com/Yuni-Lai/NodeAwareSmoothing. Please refer to the paper for details:
 ```angular2html
-Lai, Yuni, et al. "Node-aware Bi-smoothing: Certified Robustness against Graph Injection Attacks." arXiv preprint arXiv:2312.03979 (2023).
+Lai, Yuni, et al. "Node-aware Bi-smoothing: Certified Robustness against Graph Injection Attacks." IEEE Symposium on Security and Privacy (2023).
 ```
 
 ### Collective certification
