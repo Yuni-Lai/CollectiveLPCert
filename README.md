@@ -1,7 +1,7 @@
 # Collective Certified Robustness against Graph Injection Attacks
- This the official source code of the paper "Collective Certified Robustness against Graph Injection Attacks".
+ This is the official source code of the paper "Collective Certified Robustness against Graph Injection Attacks" (ICML2024).
 
-Collective certification agianst graph injection attack in node classification task.
+Collective certification against graph injection attack in the node classification task.
 
 ### Environment setup
 
